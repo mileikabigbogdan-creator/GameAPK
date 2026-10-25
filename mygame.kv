@@ -1,0 +1,14 @@
+<Ball>:
+    size: 50, 50
+    canvas:
+        Color:
+            rgba: 1, 0, 0, 1
+        Ellipse:
+            pos: self.pos
+            size: self.size
+
+<Game>:
+    ball: ball
+    Ball:
+        id: ball
+        center: root.center
